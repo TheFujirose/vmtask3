@@ -24,7 +24,7 @@ Implimentation of WooCommerce functionalies within a website builder section of 
 ## Prerequisite Steps
 Note: installation steps for WordPress is provided by WordPress
 
-1.Install [PHP](#PHP-Install) for your operating system distribution
+1. Install [PHP](#PHP-Install) for your operating system distribution
 2. Install Wordpress locally: [canada-link](https://en-ca.wordpress.org/download/) or follow these [instructions](https://phptherightway.com/#use_the_current_stable_version)
 3. Install the [Elementor](https://wordpress.org/plugins/elementor/) plugin from WordPress
 4. Install the [WooCommerce](https://en-ca.wordpress.org/plugins/woocommerce/) plugin
@@ -32,8 +32,12 @@ Note: installation steps for WordPress is provided by WordPress
 ## PHP Install
 
 **Windows**: Download the [latest](https://en-ca.wordpress.org/download/) thread-safe ZIP. Unzip and follow the instructions in the readme file.
+
 **Debian distros**: `sudo apt update && sudo apt install php libapache2-mod-php`
+
 **macOS**: `brew install php`
+
+**Fedora**: `sudo dnf install php-cli phpunit composer`
 
 ### Verify
 On Terminal/Command type `php -v`
